@@ -1,0 +1,35 @@
+{
+  "name": "blog-api-mongoose",
+  "version": "1.0.0",
+  "description": "Blog API w/ Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfv7/blog-api-mongoose.git"
+  },
+  "keywords": [
+    "Express",
+    "Mongoose",
+    "Node"
+  ],
+  "author": "Colin & Ally",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cfv7/blog-api-mongoose/issues"
+  },
+  "homepage": "https://github.com/cfv7/blog-api-mongoose#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
